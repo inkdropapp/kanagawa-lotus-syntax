@@ -1,0 +1,29 @@
+{
+  "version": "0.0.0",
+  "name": "kanagawa-lotus-syntax",
+  "description": "Kanagawa Lotus syntax theme for Inkdrop",
+  "theme": "syntax",
+  "styleSheets": [
+    "palette.css",
+    "index.css"
+  ],
+  "keywords": [
+    "inkdrop",
+    "markdown",
+    "theme",
+    "kanagawa",
+    "light"
+  ],
+  "repository": "https://github.com/inkdropapp/kanagawa-lotus-syntax",
+  "author": "Takuya Matsuyama<t@inkdrop.app>",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "./node_modules/.bin/generate-palette"
+  },
+  "devDependencies": {
+    "@inkdropapp/theme-dev-helpers": "^0.5.2"
+  },
+  "engines": {
+    "inkdrop": "^6.x"
+  }
+}
